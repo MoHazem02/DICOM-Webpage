@@ -21,12 +21,6 @@
     display: flex;
     align-items: center;
 }
-.logo
-{
-    width: 250px;
-    height: 75%;
-    cursor:pointer;
-}
 nav
 {
     flex: 1;
