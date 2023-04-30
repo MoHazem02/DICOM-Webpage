@@ -55,17 +55,17 @@ font-size: large;
    height: 100px;
 }
 #Image1{
-    width: 550px;
+    width: 500px;
     height: 600px;
-    position: relative;top: -600px;left:1200px;
+    position: relative;top: -600px;left:1000px;
 }
 #Image2{
-    width: 450px;
+    width: 400px;
     height: 500px;
-    position: relative;top: -500px;left:1240px;
+    position: relative;top: -500px;left:1000px;
 }
 #Image3{
-    width: 550px;
+    width: 400px;
     height: 800px;
-    position: relative;top: -600px;left:1240px;
+    position: relative;top: -600px;left:1000px;
 }
