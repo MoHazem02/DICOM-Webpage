@@ -1,58 +1,80 @@
-*{
-    background-color: rgb(3, 3, 38);
-    font-family: sans-serif;
-}
-body{
-    margin: 0px;
+
+.design-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Images/oldimage.jpg"); 
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
 }
 
-.navbar
-{
-    height: 12%;
-    display: flex;
-    align-items: center;
-    margin: 0px;
-}
-nav
-{
-    flex: 1;
-    text-align: right;
-}
-nav ul li
-{
-    list-style: none;
-    display: inline-block;
-    margin: 60px;
-}
-nav ul li a
-{
-    text-decoration: none;
-    color: #fff;
-    font-size: 13px;
-}
-header h1{
-    background-image: url("../Images/pc\ in\ 80s.jpeg");
-    color: azure;
-    text-align: center;
-    font-size: 500%;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    padding: 140px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-   
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-main{
-    color: azure;
-    margin: 70px;
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-h2{
-    font-size: 40px;
+.timeline-content {
+  padding: 20px;
+  background: #1f1f1f;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.timeline-content:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s ease-in-out;
+}/*transition to make content size increase when hover*/
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
 }
 
-h3{
-    font-size: 25px;
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
 }
