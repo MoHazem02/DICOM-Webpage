@@ -3,24 +3,45 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DICOM Webpage</title>
-    <link rel="stylesheet" href="../Styles/style.css">
+    <link id="stylesheet" rel="stylesheet" href="../Styles/day.css">
+    <link id="stylesheet" rel="stylesheet" href="../Styles/Home.css">
+    <script src="../Scripts/jas.js"></script>
+ 
+   
+   
 </head>
+<header class="top-header">
+    <div class="logo-container">
+        <img src="../Images/image-10.png" alt="Logo">
+        <h4>
+            Revolutionizing Medical Imaging</h4>
+    </div>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+    <div class="auth-container">
+        <a href="#">Login</a>
+        <a href="#">Sign up</a>
+        <button id="toggle-theme" onclick="toggleMode()">Day/Night</button>
+    </div>
+    <button class="navbar-toggle" onclick="toggleSidebar()">☰</button>
+</header>
+
 <body>
     <div class="container">
-        <div class="navbar">
-
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </nav>
+        <div class="sidebar">
+          <ul>
+            <li><a href="../Pages/index.html">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
         </div>
+        
         <div class="row">
             <div class="col">
-                <h1>DICOM</h1>
-                <h3>Medical Standard</h3>
+                <h1>DICOM <br> Medical Standard</h1>
+                
             </div>
             <div class="col">
                 <div class="card" id="one">
@@ -39,6 +60,6 @@
             
         </div>
     </div>
-    
+  
 </body>
 </html>
