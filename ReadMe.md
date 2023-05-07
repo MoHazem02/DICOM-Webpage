@@ -1,5 +1,10 @@
 # DICOM Webpage
+## Work Distribution Outline:
 
-* How it started?
-* How it's going?
-* To-Do: .....
+| Name              | Task                         |
+| --------          | -------                      |
+| Mohamed Hazem     | Homepage & What is Dicom     |
+| Omar Khaled       | Software & Modalitites       |
+| Youssef Hassanein | Benefits & The Future        |
+| Amr Safwat        | Presentation & Code Revision |
+| Bassel Ahmed      | History  & Features          |
