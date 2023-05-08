@@ -72,6 +72,7 @@ h3 {
 
 #four {
     background-image: url(../Images/2.jpeg);
+    padding-top: 33px;
 }
 
 .card:hover {
