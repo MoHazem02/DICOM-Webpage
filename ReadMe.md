@@ -3,7 +3,7 @@
 
 | Name              | Task                                                  |
 | --------          | -------                                               |
-| Mohamed Hazem     | Homepage & What is Dicom                              |
+| Mohamed Hazem     | Homepage, What is Dicom & ReadMe.md                   |
 | Omar Khaled       | Software & Modalitites                                |
 | Youssef Hassanein | Benefits & The Future                                 |
 | Amr Safwat        | Presentation, Header, Day/Night Mode & Navigation bar |
