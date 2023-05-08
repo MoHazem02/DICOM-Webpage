@@ -1,10 +1,70 @@
-body{ padding-top: 50px;}
-.grey-bg {
-  background-color: #f2f2f2;
-  padding: 50px;
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
+body
+{
+  background: url("../Images/24.jpg");
+}
+.pageTitle
+{
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    background: url(../Images/24.jpg);
+}
+.Left
+{
+    width: 700px;
+    position: absolute;
+    left: 60px;
+    top: 200px;
+}
+.MainRow h2
+{
+  padding: 5px;
+  text-align: center;
+  background-color: #4CAF50;
 
-.white-bg {
-  background-color: #fff;
-  padding: 30px;
+}
+.Right
+{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 200px;
+    margin: 20px;
+}
+.card1
+{
+  position: relative;
+  top: 300px;
+  cursor: pointer;
+
+}
+.card2
+{
+  position: relative;
+  top: 520px;
+  cursor: pointer;
+}
+.Right img
+{
+  width: 300px;
+  height: 300px;
+  padding-right: 20px;
+  transition: transform 0.5s;
+}
+.Right img:hover
+{
+  transform: translateY(-10px);
 }

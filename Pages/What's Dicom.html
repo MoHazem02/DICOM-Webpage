@@ -29,42 +29,44 @@
 
     </div>
    
-    
-    
 </header>
-<body>
-    <section class="green-bg">
-        <h2>DICOM - Digital Imaging and Communications in Medicine</h2>
-        <p>DICOM (Digital Imaging and Communications in Medicine) is a standard protocol used in medical imaging for the exchange, storage, and retrieval of medical images and related information.</p>
-      </section>      
 
-      <section class="white-bg">
-        <h2>DICOM Structure</h2>
-        <p>DICOM is composed of two main parts: a header and a data section. The header contains metadata about the image, such as patient information, image acquisition parameters, and image orientation. The data section contains the actual image data.</p>
-      </section>
-                
-                DICOM Header
-               The DICOM header contains a series of DICOM Data Elements (DDEs) that provide information about the image. Some of the most important DDEs include:
-                <ul>
-                    <li>Patient Name: the name of the patient associated with the image</li>
-                    <li>Patient ID: a unique identifier for the patient</li>
-                    <li>Study Description: a brief description of the study or examination</li>
-                    <li>Series Description: a brief description of the series to which the image belongs</li>
-                    <li>Modality: the imaging modality used to acquire the image (e.g., CT, MRI, X-ray)</li>
-                    <li>Image Position (Patient): the position of the image relative to the patient</li>
-                    <li>Image Orientation (Patient): the orientation of the image relative to the patient</li>
-                    <li>Pixel Spacing: the physical distance between each pixel in the image</li>
-                    <li>Bits Allocated: the number of bits allocated for each pixel</li>
-                    <li>Photometric Interpretation: the color space used to represent the image</li>
-                </ul>
-                    <img src="../Images/20.jpeg" id="one">
-            
+
+<body>
+    <div class="pageTitle">
+        <h1>DICOM - Digital Imaging and Communications in Medicine</h1>
+    </div>
         
-        <
-                DICOM Data Elements
-                
-                DICOM Data Elements (DDEs) are the basic building blocks of DICOM. Each DDE consists of a tag, a value representation (VR), and a value. The tag is a unique identifier that specifies the meaning of the DDE. The VR specifies the data type and format of the value, and the value itself contains the actual data.
-                There are several types of DDEs, including:
+        <div class="Left">
+            <div class="MainRow">
+                <h2>DICOM Structure</h2>
+                <br>
+                <p>DICOM is composed of two main parts: a header and a data section. The header contains metadata about the image, such as patient information, image acquisition parameters, and image orientation. The data section contains the actual image data.</p>
+                <br>
+                <br>
+                <div class="subRow">
+                    <h3>DICOM Header</h3>
+                    <br>
+                    <p>The DICOM header contains a series of DICOM Data Elements (DDEs) that provide information about the image. Some of the most important DDEs include:</p>
+                    <ul>
+                        <li>Patient Name: the name of the patient associated with the image</li>
+                        <li>Patient ID: a unique identifier for the patient</li>
+                        <li>Study Description: a brief description of the study or examination</li>
+                        <li>Series Description: a brief description of the series to which the image belongs</li>
+                        <li>Modality: the imaging modality used to acquire the image (e.g., CT, MRI, X-ray)</li>
+                        <li>Image Position (Patient): the position of the image relative to the patient</li>
+                        <li>Image Orientation (Patient): the orientation of the image relative to the patient</li>
+                        <li>Pixel Spacing: the physical distance between each pixel in the image</li>
+                        <li>Bits Allocated: the number of bits allocated for each pixel</li>
+                        <li>Photometric Interpretation: the color space used to represent the image</li>
+                    </ul>
+                </div>
+               <div class="subRow">
+                <br>
+                <h3>DICOM Data Elements</h3>
+                <br>
+                <p>DICOM Data Elements (DDEs) are the basic building blocks of DICOM. Each DDE consists of a tag, a value representation (VR), and a value. The tag is a unique identifier that specifies the meaning of the DDE. The VR specifies the data type and format of the value, and the value itself contains the actual data.</p>
+                <p>There are several types of DDEs, including:</p>
                 <ul>
                     <li>Unique Identifier (UID): used to identify DICOM objects and other DICOM-related information</li>
                     <li>Numeric (N): used to represent numerical values</li>
@@ -74,14 +76,12 @@
                     <li>Long String (LO): used to represent longer text strings</li>
                     <li>Sequence (SQ): used to represent a sequence of related DDEs</li>
                 </ul>
-           
-               
-                    <img src="../Images/17.jpeg" id="two">
-             
-          
-       
-               Uses of DICOM
-                DICOM is used in a wide variety of medical imaging applications, including:
+               </div>
+                
+            </div>
+            <div class="MainRow">
+                <br>
+                <h2>Uses of DICOM</h2><br>
                 <ul>
                     <li>Radiography (X-ray)</li>
                     <li>Computed tomography (CT)</li>
@@ -89,10 +89,21 @@
                     <li>Ultrasound imaging</li>
                     <li>Nuclear medicine imaging</li>
                 </ul>
-                DICOM is also used for sharing medical images and related information between different healthcare providers, such as hospitals, clinics, and diagnostic imaging centers. This allows for more efficient and accurate diagnoses and treatment plans.
-           
-                    <img src="../Images/1.png" id="three">
-              
+            </div>
+        </div>
+        <div class="Right">
+            <div class="row">
+                <div class="card1">
+                    <img src="../Images/17.jpeg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="card2">
+                    <img src="../Images/20.jpeg">
+                </div>
+            </div>
+        </div>
           
+    </div>  
 </body>
 </html>
