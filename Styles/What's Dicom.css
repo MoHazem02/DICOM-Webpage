@@ -1,7 +1,10 @@
-body{ padding-top: 200px;}
-.dicom-block {
+body{ padding-top: 50px;}
+.grey-bg {
   background-color: #f2f2f2;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+  padding: 50px;
+}
+
+.white-bg {
+  background-color: #fff;
+  padding: 30px;
 }
