@@ -14,7 +14,11 @@ background-attachment: fixed;
   min-height: 100vh;
   padding: 101px 0;
   font-family: Jost;
-}
+} /* Here we used flex box to arrange items a column ,
+     also we set the background for the page to make it exactly as the size of the page and fixed */
+
+
+
 
 .design {
   display: flex;
@@ -36,7 +40,7 @@ background-attachment: fixed;
   padding: 20px;
 
  
-  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;/* to add shadows for items*/
           box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   border-radius: 5px;
   
@@ -56,7 +60,7 @@ background-attachment: fixed;
   margin: 0px 20px 20px 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {/*@media screen and (min-width: 768px) is a CSS media query that applies the enclosed styles only if the width of the device screen is equal to or greater than 768 pixels.*/
   .timeline {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
@@ -66,7 +70,10 @@ background-attachment: fixed;
     background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
     width: 3px;
     height: 100%;
-  }
+  }/*styling the middle line */
+
+
+
   .main-middle {
     opacity: 0;
   }
@@ -80,6 +87,6 @@ background-attachment: fixed;
     background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-  }
+  }/*styling for the circle*/
 }
   
