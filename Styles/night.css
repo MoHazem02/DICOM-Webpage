@@ -5,18 +5,7 @@
     font-family: sans-serif;
 }
 
-button.toggle {
-background-color: #fff;
-color: #333;
-border: 1px solid #333;
-border-radius: 5px;
-padding: 5px 10px;
-}
 
-button.toggle:hover {
-background-color: #333;
-color: #fff;
-}
 .top-header {
 background-color: #444;
 color: #f2f2f2;
@@ -106,19 +95,21 @@ text-shadow: 2px 2px rgb(131, 124, 124);
 }
 
 #toggle-theme {
-
+display: flex;
 border: none;
 outline: none;
 padding: 10px;
 border-radius: 5px;
-font-size: 18px;
 color: #fff;
 cursor: pointer;
 transition: background-color 0.5s;
 width: 100px;
 height: 30px;
-font-size: small;
+font-size: medium;
 background-color: #3f4143;
+align-items: center;
+text-align: center;
+justify-content: center;
 }
 
 #toggle-theme:hover {
