@@ -1,9 +1,10 @@
+/* font properties for all  webpages */
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif,Arial, Helvetica ;
 }
-
+/* responsible for the day mode color of the header bar */
 .top-header {
     background-color: #f2f2f2;
     color: #333;
@@ -33,7 +34,7 @@
 .logo-container h1 {
     font-size: 24px;
 }
-
+/* responsible for the night mode color of the search bar */
 .search-container {
     display: flex;
     align-items: center;
@@ -50,15 +51,15 @@
 }
 
 .search-container button[type="submit"] {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     margin-left: 10px;
     cursor: pointer;
 }
-
+/* responsible for the day mode color of the buttons */
 .auth-container {
     display: flex;
     align-items: center;
@@ -83,7 +84,7 @@
 }
 
 
-
+/* responsible for the day mode color of the home webpage */
 #txt2{
     color: #000;
     font-size: 20px;
@@ -91,7 +92,7 @@
     margin-bottom: 20px;
 }
 
-
+/* responsible for the day mode color of the night/day buttons */
 #toggle-theme {
     display: flex;
     border: none;
@@ -115,6 +116,7 @@
     background-color:#3f4143 ;
     color: #ffffff;
 }
+/* responsible for the day mode color of the timeline webpage */
   .timeline-content{
     color: rgb(3, 3, 3);
     background: #fdfdfd;
@@ -123,7 +125,7 @@
   #txt{
     color: #f2f2f2;
   }
-  
+  /* responsible for the day mode color of the software modalities webpage */
   .lists
   {
     background-color: #f2f2f2;
@@ -134,6 +136,7 @@
     background-color: #4CAF50;
     color: white;
   }
+   /* responsible for the day mode color of the Benefits webpage */
   .Heading{
     background-color:darkblue;
 color: white;

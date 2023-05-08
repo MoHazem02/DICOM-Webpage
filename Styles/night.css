@@ -1,22 +1,12 @@
+/* font properties for all  webpages */
 * {
     
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif,Arial, Helvetica ;
 }
 
-button.toggle {
-background-color: #fff;
-color: #333;
-border: 1px solid #333;
-border-radius: 5px;
-padding: 5px 10px;
-}
-
-button.toggle:hover {
-background-color: #333;
-color: #fff;
-}
+/* responsible for the night mode color of the header bar */
 .top-header {
 background-color: #444;
 color: #f2f2f2;
@@ -47,7 +37,7 @@ filter: invert(1);
 .logo-container h1 {
 font-size: 24px;
 }
-
+/* responsible for the day mode color of the search bar */
 .search-container {
 display: flex;
 align-items: center;
@@ -67,15 +57,15 @@ color: #f2f2f2;
 }
 
 .search-container button[type="submit"] {
-background-color: #f2f2f2;
-color: #333;
+background-color: #333;
+color: #f2f2f2;
 border: none;
 border-radius: 5px;
 padding: 5px 10px;
 margin-left: 10px;
 cursor: pointer;
 }
-
+/* responsible for the night mode color of the buttons */
 .auth-container {
 display: flex;
 align-items: center;
@@ -98,13 +88,15 @@ color: #f2f2f2;
 background-color: #666;
 box-shadow: none;
 }
+
+/* responsible for the night mode color of the home webpage */
 #txt2{
   color: #000;
   font-size: 20px;
 text-shadow: 2px 2px rgb(131, 124, 124);
   margin-bottom: 20px;
 }
-
+/* responsible for the night mode color of the night/day buttons */
 #toggle-theme {
 display: flex;
 border: none;
@@ -127,16 +119,16 @@ background-color: #3f4143;
 background-color: #fff;
 color: #3f4143;
 }
-
+/* responsible for the night mode color of the timeline webpage */
 .timeline-content{
     color: white;
-    background:black;
+    background:rgb(24, 24, 47);
   }
 
   #txt{
     color: #6f6464;
   }
-  
+   /* responsible for the night mode color of the software modalities webpage */
   .lists
   {
     background-color: #444;
@@ -147,8 +139,9 @@ color: #3f4143;
     background-color: #602020;
     color: white;
   }
+    /* responsible for the day mode color of the Benefits webpage */
   .Heading{
-    background-color:crimson ;
+    background-color:#602020 ;
     color: white;
   }
   .Lists{
