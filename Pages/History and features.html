@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this block is for linking the style sheets and the java script file 
+                                                                                and making the page size copatible for different devices -->
     <title>History & Features</title>
     <link rel="stylesheet" href="../Styles/history and features.css">
     <link id="stylesheet" rel="stylesheet" href="../Styles/day.css">
     <script src="../Scripts/jas.js"></script>
 </head>
-<header class="top-header">
+ <header class="top-header"><!-- The header is for the navigation bar which is in all pages -->
     <div class="logo-container">
         <img src="../Images/image-10.png" alt="Logo">
         <h4>
@@ -34,79 +35,94 @@
 <body>
     <main>
        
-<!--This is the main container that contains the whole timeline.-->
+<!--This is the main container that contains the whole timeline.
+it was taken from an online template source for html and css .-->
 
 <section class="design-section">
 <div class="timeline">
 
-          <!--Well, The reason for this div is to fill space. 
-This space is technically used for keeping dates, 
-but I didn't find the need for dates. However, I'll provide 
-you the styling for dates, so that you can use it if you 
-wanted to.-->
+          <!--Class Timeline empty is for empty blocks it is a virtual block that we need to have to maintain the style-->
                   <div class="timeline-empty">
                   </div>
 
-<!--This is the class where the timeline graphics are 
-housed in. Note that we have timeline-circle 
-here for that pointer in timeline.-->
+<!--Timeline middle is for the red line going all the way between the blocks,
+    Timeline circle is for the red circle on the line at the start and the end of each clock-->
+
+
+    <!--These 3 classes where copied and pasted through the html file several times
+    in a pattern to maintain the alternating style of the blocks-->
 
                <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
+
+                    <div class="timeline-circle"></div>
                </div>
-               <div class="timeline-component timeline-content">
-                <h3>1980</h3>
-                <p>In the beginning... it was very difficult for anyone other than manufacturers of computed tomography (CT) or magnetic resonance imaging (MRI) devices to decode the images that the machines generated, or to print them.</p>
+
+               <div class="timeline-component timeline-content"> <!-- This class is for the blocks of contents -->
+                     <h3>1980</h3>
+                    <p>In the beginning... it was very difficult for anyone other than manufacturers of computed tomography (CT) or magnetic resonance imaging (MRI) devices to decode the images that the machines generated, or to print them.</p>
                 </div>
+
                 <div class="timeline-component timeline-content">
                          <h3>1983</h3>
                          <p>The American College of Radiology (ACR) and the National Electrical Manufacturers Association (NEMA) joined forces and formed a Standards committee to meet the combined needs of radiologists, physicists and equipment vendors.</p>
                 </div>
+
                 <div class="timeline-middle">
                     <div class="timeline-circle"></div>
                 </div>
-                <div class="timeline-empty">
-                </div>
 
-                <div class="timeline-empty">
-                </div>
+                <div class="timeline-empty"></div>
+                
+
+                <div class="timeline-empty"></div>
+                
 
                <div class="timeline-middle">
                    <div class="timeline-circle"></div>
                </div>
-               <div class=" timeline-component timeline-content">
-                <h3>1985</h3>
-                <p>Their first Standard covering point-to-point image communication, ACR-NEMA 300, was released. The specified image transmission used a dedicated 16-bit parallel interface.</p>
+
+                <div class=" timeline-component timeline-content">
+                 <h3>1985</h3>
+                    <p>Their first Standard covering point-to-point image communication, ACR-NEMA 300, was released. The specified image transmission used a dedicated 16-bit parallel interface.</p>
                 </div>
-                <div class="timeline-component timeline-content">
+
+            <div class="timeline-component timeline-content">
                     <h3>1988</h3>
                     <p>The second version of ACR-NEMA 300 was released, gaining increasing acceptance among vendors.</p>
-           </div>
+             </div>
+
+
            <div class="timeline-middle">
                <div class="timeline-circle"></div>
            </div>
-           <div class="timeline-empty">
-           </div>
 
-           <div class="timeline-empty">
-           </div>
+           <div class="timeline-empty"></div>
+           
+
+           <div class="timeline-empty"></div>
+           
 
           <div class="timeline-middle">
               <div class="timeline-circle"></div>
           </div>
+
           <div class=" timeline-component timeline-content">
-           <h3>1990</h3>
-           <p>The first demonstration of ACR-NEMA V2.0 occured at Georgetown University in May 1990, and later that year at the annual meeting of the Radiological Society of North America (RSNA).</p>
+                <h3>1990</h3>
+                <p>The first demonstration of ACR-NEMA V2.0 occured at Georgetown University in May 1990, and later that year at the annual meeting of the Radiological Society of North America (RSNA).</p>
            </div>
+
            <div class="timeline-component timeline-content">
-            <h3>1995</h3>
-            <p>Ultrasound, X-ray angiography, and nuclear medicine protocols added to DICOM, supporting the needs of cardiology imaging.
-                CD-based image exchange via allowed off-line transfer of imaging studies.
-                The DICOM Standards Committee was reorganized to formally represent all medical specialties that use imaging, not just radiology, including the American College of Cardiology (ACC).</p>
-   </div>
+                 <h3>1995</h3>
+                 <p>Ultrasound, X-ray angiography, and nuclear medicine protocols added to DICOM, supporting the needs of cardiology imaging.
+                     CD-based image exchange via allowed off-line transfer of imaging studies.
+                     The DICOM Standards Committee was reorganized to formally represent all medical specialties that use imaging, not just radiology, including the American College of Cardiology (ACC).</p>
+        </div>
+
+
    <div class="timeline-middle">
        <div class="timeline-circle"></div>
    </div>
+
    <div class="timeline-empty">
    </div>
 
@@ -116,19 +132,23 @@ here for that pointer in timeline.-->
   <div class="timeline-middle">
       <div class="timeline-circle"></div>
   </div>
+
   <div class=" timeline-component timeline-content">
-   <h3>1997</h3>
-   <p>Radiation therapy information objects were added</p>
+     <h3>1997</h3>
+     <p>Radiation therapy information objects were added</p>
    </div>
+
+
    <div class="timeline-component timeline-content">
-    <h3>2000</h3>
-    <p>Structured data, analytic results and clinical observations made in the imaging environment were Standardized with Structured Reporting (SR), extending DICOM beyond just images.
+        <h3>2000</h3>
+         <p>Structured data, analytic results and clinical observations made in the imaging environment were Standardized with Structured Reporting (SR), extending DICOM beyond just images.
         Internet security mechanisms were added through secure communication profiles for the DICOM protocol.
         </p>
 </div>
 <div class="timeline-middle">
 <div class="timeline-circle"></div>
 </div>
+
 <div class="timeline-empty">
 </div>
 
@@ -138,99 +158,114 @@ here for that pointer in timeline.-->
 <div class="timeline-middle">
 <div class="timeline-circle"></div>
 </div>
+
 <div class=" timeline-component timeline-content">
-<h3>2003</h3>
-<p>Multi-frame enhanced image formats adopted to support the next generation of advanced MR and CT imaging techniques.
+    <h3>2003</h3>
+    <p>Multi-frame enhanced image formats adopted to support the next generation of advanced MR and CT imaging techniques.
     DVD media exchange added.
     </p>
 </div>
+
 <div class="timeline-component timeline-content">
-<h3>2004</h3>
-<p>WADO (Web-access to DICOM objects) added to retrieve DICOM images over HTTP connections.
+    <h3>2004</h3>
+    <p>WADO (Web-access to DICOM objects) added to retrieve DICOM images over HTTP connections.
     Dentistry and ophthalmology joined DICOM.
     USB and Flash memory media exchange added.
     Spatial registration supported for rigid registrations of imaging datasets.
     MPEG2 encoding of video data supported.
     </p>
 </div>
+
 <div class="timeline-middle">
 <div class="timeline-circle"></div>
-</div>
-<div class="timeline-empty">
 </div>
 
 <div class="timeline-empty">
 </div>
 
-<div class="timeline-middle">
-<div class="timeline-circle"></div>
+<div class="timeline-empty">
 </div>
+
+<div class="timeline-middle">
+    <div class="timeline-circle"></div>
+</div>
+
 <div class=" timeline-component timeline-content">
-<h3>2008</h3>
-<p>Breast tomosynthesis ("3-D mammography") added.</p>
+    <h3>2008</h3>
+    <p>Breast tomosynthesis ("3-D mammography") added.</p>
 </div>
+
 <div class="timeline-component timeline-content">
     <h3>2009</h3>
     <p>3D Ultrasound added.</p>
 </div>
+
 <div class="timeline-middle">
-<div class="timeline-circle"></div>
-</div>
-<div class="timeline-empty">
+    <div class="timeline-circle"></div>
 </div>
 
 <div class="timeline-empty">
 </div>
 
-<div class="timeline-middle">
-<div class="timeline-circle"></div>
+<div class="timeline-empty">
 </div>
+
+<div class="timeline-middle">
+    <div class="timeline-circle"></div>
+</div>
+
 <div class=" timeline-component timeline-content">
-<h3>2011</h3>
-<p>Blueray media exchange added.</p>
+    <h3>2011</h3>
+    <p>Blueray media exchange added.</p>
 </div>
+
 <div class="timeline-component timeline-content">
-<h3>2015</h3>
-<p>Server-based Rendering added to WADO-RS, allowing web clients to request DICOM images and video be rendered into consumer media formats for simple display, e.g. in EHR portals.
+    <h3>2015</h3>
+    <p>Server-based Rendering added to WADO-RS, allowing web clients to request DICOM images and video be rendered into consumer media formats for simple display, e.g. in EHR portals.
     Tractography Results storage added to support applications such as MR DTI in neurology.
     Imaging report templates using the HL7 Clinical Document Architecture (CDA) added, aligning with requirements for CDA in the U.S. Meaningful Use of Electronic Health Record Systems regulations.
     Wide-Field Ophthalmic Photography images added.
     Brachytherapy Delivery Instruction objects added to support radiotherapy treatment delivery.
     AVC/H.264 (MPEG4) video support added.</p>
 </div>
+
 <div class="timeline-middle">
-<div class="timeline-circle"></div>
-</div>
-<div class="timeline-empty">
+    <div class="timeline-circle"></div>
 </div>
 
 <div class="timeline-empty">
 </div>
 
-<div class="timeline-middle">
-<div class="timeline-circle"></div>
+<div class="timeline-empty">
 </div>
+
+<div class="timeline-middle">
+    <div class="timeline-circle"></div>
+</div>
+
 <div class=" timeline-component timeline-content">
-<h3>2018</h3>
-<p>3D Manufacturing - STL encapsulation added image-based medical 3D-printing workflows.
+    <h3>2018</h3>
+    <p>3D Manufacturing - STL encapsulation added image-based medical 3D-printing workflows.
     TLS ciphersuites updated to match current transaction security recommendations.
     Contrast Injection SR added to track detailed power injector records for QA and clinical analysis.
     Multi-Energy CT Image Storage added to provide Standard encodings of new dual-energy and spectral acquisition techniques for use by image displays and analysis packages.
     Second Generation RT Prescriptions provides the basis for a series of upcoming 2nd Generation RT planning and delivery objects.
     </p>
 </div>
+
 <div class="timeline-component timeline-content">
-<h3>2019</h3>
-<p>DICOMweb Redocumentation re-organizes Part 18 to provide a comprehensive view of all DICOM web services in a uniform structure oriented toward web implementers.
+    <h3>2019</h3>
+    <p>DICOMweb Redocumentation re-organizes Part 18 to provide a comprehensive view of all DICOM web services in a uniform structure oriented toward web implementers.
     DICOMweb Thumbnails service added to provide study/series/image thumbnails to clients such as web apps.
     Realtime Video Streaming (DICOM-RTV) added to support streaming medical video and audio over IP networks using the SMPTE ST 2110 protocol family and a profiled DICOM metadata stream.
     Second Generation C-Arm RT introduces the RT Radiation Set and representation of C-Arm techniques.
-</p>
+    </p>
 </div>
 
 
      
     </div> 
+    
 </section>
     
     </main>
