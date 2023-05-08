@@ -15,9 +15,9 @@
 }
   
 body{
+    background-image: url("../Images/Technology.jpeg");
     padding-top: 100px;
     color: black;
-    background-image: url("../Images/Technology.jpeg");
     backface-visibility: visible;
 }
 
@@ -57,7 +57,7 @@ body{
 }
   
   /* Align the text to the left */
-section3 p {
+.section3 p {
     text-align: center;
     max-width: 50%;
     color: aliceblue;
