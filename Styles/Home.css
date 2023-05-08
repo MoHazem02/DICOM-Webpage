@@ -72,7 +72,7 @@ h3 {
 
 #four {
     background-image: url(../Images/2.jpeg);
-    padding-top: 33px;
+    padding-top: 30px;
 }
 
 .card:hover {
@@ -93,6 +93,8 @@ h3 {
 
 #four a {
     color: green;
+    position: relative;
+    bottom: 12px;
 }
 
 /* Footer */
