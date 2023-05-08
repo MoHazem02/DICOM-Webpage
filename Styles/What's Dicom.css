@@ -1,82 +1,52 @@
-*
-{
-    padding: 0;
-    margin: 0;
-    background-color:cadetblue;
-}
-.container
-{
-    padding: 2%;
-}
-.navbar
-{
-    width:85%;
-    margin: auto;
-    padding: 35px 0;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  .row {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .col h1, .col h2, .col h3 {
+    margin-top: 0;
+  }
+  
+  .col p, .col ul {
+    margin-bottom: 10px;
+  }
+  
+  .col ul {
+    padding-left: 20px;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-}
-.navbar ul li
-{
-list-style: none;
-display: inline-block;
-margin: 0 20px;
-position: relative;
-font-size: large;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-}
-.navbar ul li::after
-{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-.navbar ul li:hover:after
-{
-    width: 100%;
-}
-.col
-{
-    width: 50%;
-}
-#one
-{
-    width: 50%;
-    position: absolute;
-    left: 550px;
-}
-#two
-{
-    width: 40%;
-    height: 50%;
-    position: absolute;
-    left: 900px;
-    bottom: 10px;
-}
-#three
-{
-    width: 40%;
-    height: 50%;
-    position: absolute;
-    left: 900px;
-}
-.row
-{
-    display: flex;
-}
-img
-{
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
+    height: 300px;
+  }
+  
+  .images img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #one, #two, #three {
+    border: 1px solid #ccc;
     border-radius: 5px;
-}
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
