@@ -1,55 +1,73 @@
-* {
-    margin: 5px;
-    margin-top: 0px;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 16px;
-    line-height: 1.5;
-    color: antiquewhite;
-    font-family: sans-serif;
-    background-color: #333;
-    background-image: url(../Images/15.jpg);
-    background-size: 1550px;   
-}
-
-.navbar {
-    text-align: right;
-}
-
-.navbar li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.navbar a {
-    color: #eee;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.navbar a:hover {
-    background-color: #c1bcbc;
-    color: #333;
+/* Style for the heading divs */
+*{
+    padding: 5px
 }
 
 .heading {
-    font-family: 'Times New Roman';
-    color: #fff;
-    font-size: 28px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+  
+  /* Style for the ordered lists */
+  .lists {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 16px;
+}
+  
+body{
+    padding-top: 100px;
+    color: black;
+    background-image: url("../Images/Technology.jpeg");
+    backface-visibility: visible;
 }
 
-ol {
-    margin: 20px;
+  /* Style for the list items */
+  .lists li {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
+  
+  /* Style for the list item image */
+  .lists li img {
+    margin-left: auto;
+    margin-right: 20px;
+    max-width: 50%;
+}
+  
+  /* Style for the paragraph elements */
+  p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+ 
 
-.lists {
-    list-style: decimal;
-    margin-left: 20px;
-}
+  /* Apply a common style to all sections */
+.section1,.section2,.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: color;
+    flex-wrap: wrap;
 
-.lists li {
-    margin-bottom: 10px;
 }
+  
+  /* Align the text to the left */
+section3 p {
+    text-align: center;
+    max-width: 50%;
+    color: aliceblue;
+}
+  
+  /* Display the images on the right */
+  section img {
+    max-width: 50%;
+}
+ 
