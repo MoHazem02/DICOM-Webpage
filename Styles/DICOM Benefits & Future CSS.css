@@ -1,9 +1,17 @@
-body{
-    background-color: black;
-    color: white;
-    font-family: 'Times New Roman';
+*{
+    padding: 5px
 }
-.navbar{
+body{
+    background-image: url(../Images/Doctor-at-office.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+    font-family: 'Times New Roman';
+    backface-visibility: visible;
+    padding-top: 100px;
+}
+/*.navbar{
     width:85%;
     margin: auto;
     padding: 35px 0;
@@ -53,19 +61,80 @@ font-size: large;
    justify-content: flex-start;
    width:800px;
    height: 100px;
+}*/
+
+
+.Heading {
+    padding: 10px;
+    font-size: 30px;
+    width:500px;
+    height: 35px;
+    position:relative;
+    top: -150px;
+    left: 20px;
 }
+  
+  /* Style for the ordered lists */
+  .Lists {
+    padding: 20px;
+    font-size: 16px;
+    position: relative;
+    left: -60px;
+}
+
+  /* Style for the list items */
+  .Lists li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 550px;
+    height: 100px;
+}
+  
+  /* Style for the list item image */
+  .Lists li img {
+    margin-left: auto;
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+  /* Apply a common style to all sections */
+.section1,.section2,.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: color;
+    flex-wrap: wrap;
+
+}
+  
+  
 #Image1{
-    width: 500px;
-    height: 600px;
-    position: relative;top: -600px;left:1000px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 955px;
+    top: 27px;
+    padding: 0px;
+    margin: 0px;
 }
 #Image2{
-    width: 400px;
-    height: 500px;
-    position: relative;top: -500px;left:1000px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 955px;
+    top: 27px;
+    padding: 0px;
+    margin: 0px;
 }
 #Image3{
-    width: 400px;
-    height: 800px;
-    position: relative;top: -600px;left:1000px;
-}
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 955px;
+    top: 27px;
+    padding: 0px;
+    margin: 0px;
+} 

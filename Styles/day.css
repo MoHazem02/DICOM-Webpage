@@ -123,14 +123,22 @@
   #txt{
     color: #f2f2f2;
   }
+  
   .lists
   {
     background-color: #f2f2f2;
-
   }
+
   .heading
   {
     background-color: #4CAF50;
     color: white;
+  }
+  .Heading{
+    background-color:darkblue;
+color: white;
+  }
+  .Lists{
+    background-color: #f2f2f2;
   }
   
