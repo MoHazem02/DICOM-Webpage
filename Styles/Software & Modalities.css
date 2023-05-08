@@ -1,23 +1,29 @@
-/* Style for the heading divs */
+/*A universal selector*/
 *{
     padding: 5px
 }
 
+/* Style for the heading divs */
 .heading {
+    background-color: #4CAF50;
+    color: white;
     padding: 10px;
     font-size: 40px;
+    border-radius: 5px;
 }
   
   /* Style for the ordered lists */
   .lists {
+    background-color: #f2f2f2;
     padding: 20px;
     font-size: 16px;
+    border-radius: 10px;
 }
   
 body{
-    background-image: url("../Images/Technology.jpeg");
     padding-top: 100px;
     color: black;
+    background-image: url("../Images/Technology.jpeg");
     backface-visibility: visible;
 }
 
@@ -27,13 +33,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
-  
-  /* Style for the list item image */
-  .lists li img {
-    margin-left: auto;
-    margin-right: 20px;
-    max-width: 50%;
 }
   
   /* Style for the paragraph elements */
@@ -53,18 +52,4 @@ body{
     padding: 50px;
     color: color;
     flex-wrap: wrap;
-
-}
-  
-  /* Align the text to the left */
-.section3 p {
-    text-align: center;
-    max-width: 50%;
-    color: aliceblue;
-}
-  
-  /* Display the images on the right */
-  section img {
-    max-width: 50%;
-}
- 
+} 
