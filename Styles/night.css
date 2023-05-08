@@ -128,9 +128,20 @@ color: #3f4143;
 
 .timeline-content{
     color: white;
-    background:black;
+    background:#29293d;
   }
 
   #txt{
     color: #6f6464;
+  }
+  .lists
+  {
+    background-color: #444;
+    color: white;
+
+  }
+  .heading
+  {
+    background-color: #602020;
+    color: white;
   }
