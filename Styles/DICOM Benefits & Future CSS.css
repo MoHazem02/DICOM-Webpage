@@ -1,71 +1,96 @@
+*{
+    padding: 5px
+}
 body{
-    background-color: black;
-    color: white;
+    background-image: url(../Images/Doctor-at-office.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
     font-family: 'Times New Roman';
+    backface-visibility: visible;
+    padding-top: 100px;
 }
-.navbar{
-    width:85%;
-    margin: auto;
-    padding: 35px 0;
+
+
+/* Style for the Heading items */
+.Heading {
+    padding: 10px;
+    font-size: 30px;
+    width:500px;
+    height: 35px;
+    position:relative;
+    top: -150px;
+    left: 20px;
+    border-radius: 10px;
+}
+  
+  /* Style for the ordered lists */
+  .Lists {
+    padding: 20px;
+    font-size: 16px;
+    position: relative;
+    left: -60px;
+    border-radius: 10px;
+}
+
+  /* Style for the list items */
+  .Lists li {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    width: 550px;
+    height: 100px;
 }
-.navbar ul li{
-list-style: none;
-display: inline-block;
-margin: 0 20px;
-position: relative;
-font-size: large;
+  
+  /* Style for the list item image */
+  .Lists li img {
+    margin-left: auto;
+    margin-right: 20px;
+    max-width: 50%;
 }
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
+
+  /* Apply a common style to all sections */
+.section1,.section2,.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: color;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
 }
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-.navbar ul li:hover:after{
-    width: 100%;
-}
-.Container{
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 700px;
-}
-.Heading{
-    text-align: left;
-    font-size: xx-large;
-    font-weight: bold;
-    height: 50px;
-}
-.Content{
-   font-size: large;
-   font-family: Arial;
-   justify-content: flex-start;
-   width:800px;
-   height: 100px;
-}
+  
+  
 #Image1{
-    width: 500px;
-    height: 600px;
-    position: relative;top: -600px;left:1000px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 955px;
+    top: 27px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
 }
 #Image2{
-    width: 400px;
-    height: 500px;
-    position: relative;top: -500px;left:1000px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 955px;
+    top: 27px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
 }
 #Image3{
-    width: 400px;
-    height: 800px;
-    position: relative;top: -600px;left:1000px;
-}
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 955px;
+    top: 27px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+} 
