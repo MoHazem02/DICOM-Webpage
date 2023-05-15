@@ -39,7 +39,7 @@
         
         <div class="Left">
             <div class="MainRow">
-                <h2>DICOM Structure</h2>
+                <h2 id="Dicom_structure">DICOM Structure</h2>
                 <br>
                 <p class="structure">DICOM is composed of two main parts: a header and a data section. The header contains metadata about the image, such as patient information, image acquisition parameters, and image orientation. The data section contains the actual image data.</p>
                 <br>
@@ -47,26 +47,28 @@
                 <div class="subRow">
                     <h3>DICOM Header</h3>
                     <br>
-                    <p>The DICOM header contains a series of DICOM Data Elements (DDEs) that provide information about the image. Some of the most important DDEs include:</p>
-                    <ul>
-                        <li>Patient Name: the name of the patient associated with the image</li>
-                        <li>Patient ID: a unique identifier for the patient</li>
-                        <li>Study Description: a brief description of the study or examination</li>
-                        <li>Series Description: a brief description of the series to which the image belongs</li>
-                        <li>Modality: the imaging modality used to acquire the image (e.g., CT, MRI, X-ray)</li>
-                        <li>Image Position (Patient): the position of the image relative to the patient</li>
-                        <li>Image Orientation (Patient): the orientation of the image relative to the patient</li>
-                        <li>Pixel Spacing: the physical distance between each pixel in the image</li>
-                        <li>Bits Allocated: the number of bits allocated for each pixel</li>
-                        <li>Photometric Interpretation: the color space used to represent the image</li>
+                    <div class="list">
+                        <p>The DICOM header contains a series of DICOM Data Elements (DDEs) that provide information about the image. Some of the most important DDEs include:</p>
+                            <ul>
+                                <li>Patient Name: the name of the patient associated with the image</li>
+                                  <li>Patient ID: a unique identifier for the patient</li>
+                             <li>Study Description: a brief description of the study or examination</li>
+                                <li>Series Description: a brief description of the series to which the image belongs</li>
+                             <li>Modality: the imaging modality used to acquire the image (e.g., CT, MRI, X-ray)</li>
+                             <li>Image Position (Patient): the position of the image relative to the patient</li>
+                             <li>Image Orientation (Patient): the orientation of the image relative to the patient</li>
+                             <li>Pixel Spacing: the physical distance between each pixel in the image</li>
+                                <li>Bits Allocated: the number of bits allocated for each pixel</li>
+                             <li>Photometric Interpretation: the color space used to represent the image</li>
                     </ul>
+                    </div>
                 </div>
                 
                <div class="subRow">
                 <br>
                 <h3>DICOM Data Elements</h3>
                 <br>
-                <p>DICOM Data Elements (DDEs) are the basic building blocks of DICOM. Each DDE consists of a tag, a value representation (VR), and a value. The tag is a unique identifier that specifies the meaning of the DDE. The VR specifies the data type and format of the value, and the value itself contains the actual data.</p>
+                <div class="list">          <p>DICOM Data Elements (DDEs) are the basic building blocks of DICOM. Each DDE consists of a tag, a value representation (VR), and a value. The tag is a unique identifier that specifies the meaning of the DDE. The VR specifies the data type and format of the value, and the value itself contains the actual data.</p>
                 <p>There are several types of DDEs, including:</p>
                 <ul>
                     <li>Unique Identifier (UID): used to identify DICOM objects and other DICOM-related information</li>
@@ -78,12 +80,12 @@
                     <li>Sequence (SQ): used to represent a sequence of related DDEs</li>
                 </ul>
                </div>
-                
+                </div>  
             </div>
             <div class="MainRow">
                 <br>
                 <h2>Uses of DICOM</h2><br>
-                <ul>
+                <ul class="list">
                     <li>Radiography (X-ray)</li>
                     <li>Computed tomography (CT)</li>
                     <li>Magnetic resonance imaging (MRI)</li>
