@@ -23,6 +23,7 @@ body{
     color: black;
     background-image: url("../Images/Technology.jpeg");
     backface-visibility: visible;
+    background-attachment: fixed;
 }
 
   /* Style for the list items */
